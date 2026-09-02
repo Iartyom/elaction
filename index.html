@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>אלקשן - בוחרים לפי עובדות</title>
+    <meta
+      name="description"
+      content="השוואה פשוטה בין מפלגות: מצעים, הבטחות, חקיקה ומקורות לקראת בחירות."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@400;500;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar" aria-label="ניווט ראשי">
+        <a href="#parties" class="brand">אלקשן</a>
+        <div class="nav-links">
+          <a href="#belief-guide">מצפן</a>
+          <a href="#race">מנדטים וגושים</a>
+          <a href="#parties">מפלגות</a>
+          <a href="#pledges">הבטחות</a>
+          <a href="#misinfo">פייק</a>
+          <a href="#issue-lab">השוואת נושא</a>
+          <a href="#sources">מקורות</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">מדריך הצבעה אישי · נבדק יומית</p>
+          <h1>לבחור מפלגה לפי עמדות, רקורד ואמינות.</h1>
+          <p>
+            מתחילים ב־15 שאלות קצרות, מקבלים התאמה למפלגות, ואז בודקים הבטחות,
+            סקרים, פייק ומקורות לפני שמחליטים.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#belief-guide">להתחיל במצפן</a>
+            <a class="secondary-action" href="#issue-lab">להשוות נושא</a>
+          </div>
+          <div class="voter-path" aria-label="מסלול בחירה">
+            <a href="#belief-guide">
+              <span>01</span>
+              <strong>התאמה</strong>
+              <small>15 שאלות מהותיות</small>
+            </a>
+            <a href="#race">
+              <span>02</span>
+              <strong>מנדטים וגושים</strong>
+              <small>מי מגיע ל-61</small>
+            </a>
+            <a href="#misinfo">
+              <span>03</span>
+              <strong>אימות</strong>
+              <small>פייק, הבטחות ומקורות</small>
+            </a>
+          </div>
+          <p id="dataRefreshStatus" class="data-refresh-status" aria-live="polite">בודק עדכוני מחקר ברקע...</p>
+        </div>
+        <aside class="hero-panel" aria-label="תמונת מצב">
+          <span>תמונת מצב</span>
+          <strong>95 מקורות</strong>
+          <p>מקורות רשמיים, כנסת, סקרים, תחקירים ובדיקות עובדה. מקורות מוטים לא עומדים לבד.</p>
+          <dl>
+            <div>
+              <dt>15</dt>
+              <dd>שאלות מצפן</dd>
+            </div>
+            <div>
+              <dt>17</dt>
+              <dd>רשימות במעקב</dd>
+            </div>
+            <div>
+              <dt>95</dt>
+              <dd>מקורות</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section id="belief-guide" class="belief-guide">
+        <div class="section-heading">
+          <p class="eyebrow">מצפן הצבעה</p>
+          <h2>מה חשוב לך, ואילו מפלגות קרובות לזה</h2>
+          <p>
+            ענו רק על שאלות שיש לכם עמדה לגביהן. התוצאה היא מפת התאמה עם ציון אמינות
+            ודגלי אזהרה, לא הוראת הצבעה.
+          </p>
+        </div>
+        <div id="beliefQuestions" class="belief-questions"></div>
+        <div class="belief-actions">
+          <button id="resetBeliefs" type="button">איפוס בחירות</button>
+        </div>
+        <div id="beliefResults" class="belief-results" aria-live="polite"></div>
+      </section>
+
+      <section id="race" class="race">
+        <div class="section-heading">
+          <p class="eyebrow">רשימות וסקרים</p>
+          <h2>מי במשחק, ומה הכוח הצפוי שלו כרגע</h2>
+          <p>
+            רשימה הופכת רשמית רק אחרי אישור ועדת הבחירות. עד אז מוצג כאן שילוב אחד:
+            סטטוס ריצה, ממוצע מנדטים כשיש, ורמת אמינות לכל גוף פוליטי.
+          </p>
+        </div>
+        <div id="coalitionSummary" class="coalition-summary"></div>
+        <div id="raceStats" class="race-stats"></div>
+        <div id="raceList" class="race-list"></div>
+      </section>
+
+      <section id="issue-lab" class="issue-lab">
+        <div class="section-heading">
+          <p class="eyebrow">השוואת נושא</p>
+          <h2>בחרו נושא וקבלו תמונת מפלגות קצרה</h2>
+          <p>
+            לכל נושא מוצגות מפלגות רלוונטיות, מנדטים צפויים כשיש, דגלי אמינות,
+            הבטחות פתוחות וכרטיסי פייק שמחייבים בדיקה לפני החלטה.
+          </p>
+        </div>
+        <div class="issue-lab-shell">
+          <label>
+            <span>נושא להשוואה</span>
+            <select id="issueLabFilter"></select>
+          </label>
+          <div id="issueLabGrid" class="issue-lab-grid"></div>
+        </div>
+      </section>
+
+      <section id="parties" class="workspace">
+        <div class="section-heading compact">
+          <p class="eyebrow">מאגר מפלגות</p>
+          <h2>בחרו נושא או חפשו מפלגה</h2>
+        </div>
+        <div class="controls" role="search">
+          <label>
+            <span>חיפוש</span>
+            <input id="searchInput" type="search" placeholder="לדוגמה: יוקר מחיה, גיוס, ש״ס" />
+          </label>
+          <label>
+            <span>נושא מרכזי</span>
+            <select id="issueFilter">
+              <option value="all">כל הנושאים</option>
+            </select>
+          </label>
+          <label>
+            <span>סטטוס בכנסת</span>
+            <select id="statusFilter">
+              <option value="all">כולם</option>
+              <option value="coalition">קואליציה/ממשלה</option>
+              <option value="opposition">אופוזיציה</option>
+              <option value="split">התפצלה לקראת בחירות</option>
+              <option value="outside">מחוץ לכנסת היוצאת</option>
+            </select>
+          </label>
+          <label>
+            <span>מיון</span>
+            <select id="sortFilter">
+              <option value="mandates">מנדטים צפויים</option>
+              <option value="risk">דגלי אזהרה קודם</option>
+              <option value="name">שם מפלגה</option>
+              <option value="confidence">ביטחון מחקרי</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="partyGrid" class="party-grid"></div>
+      </section>
+
+      <section id="pledges" class="pledges">
+        <div class="section-heading">
+          <p class="eyebrow">בדיקת הבטחות</p>
+          <h2>מה נאמר, מה קרה, ומה עדיין חסר</h2>
+          <p>
+            כאן מתמקדים בהבטחות לפי צירי הבחירות: ביטחון ועזה, יוקר מחיה ודיור,
+            דמוקרטיה ושחיתות, דת וגיוס, ביטחון פנים, תקשורת ופייק, וחיי יום-יום.
+            כל הבטחה מופרדת מהביצוע בפועל ומסומנת לפי אמינות.
+          </p>
+        </div>
+        <div id="pledgeFocusStats" class="pledge-focus-stats"></div>
+        <div class="controls pledge-controls" role="search">
+          <label>
+            <span>חיפוש בהבטחות</span>
+            <input id="pledgeSearchInput" type="search" placeholder="לדוגמה: גיוס, כשרות, יוקר מחיה" />
+          </label>
+          <label>
+            <span>ציר בחירות</span>
+            <select id="pledgeIssueFilter">
+              <option value="all">כל הצירים</option>
+            </select>
+          </label>
+          <label>
+            <span>מפלגה</span>
+            <select id="pledgePartyFilter">
+              <option value="all">כל המפלגות</option>
+            </select>
+          </label>
+          <label>
+            <span>סטטוס בדיקה</span>
+            <select id="pledgeStatusFilter">
+              <option value="all">כל הסטטוסים</option>
+              <option value="done">קוים</option>
+              <option value="partial">חלקי</option>
+              <option value="open">פתוח</option>
+              <option value="blocked">לא קוים/נפל</option>
+              <option value="review">דורש בדיקה</option>
+            </select>
+          </label>
+        </div>
+        <div id="pledgeLedger" class="pledge-ledger"></div>
+      </section>
+
+      <section id="misinfo" class="misinfo">
+        <div class="section-heading">
+          <p class="eyebrow">פייק ודיסאינפורמציה</p>
+          <h2>מה נטען, ומה האמת בפועל</h2>
+          <p>
+            כרטיסים לפי מפלגה או גוש, רק כשהטענה מגובה בבדיקת עובדות, תחקיר או מקור רשמי.
+            נרטיב רחב מסומן כנרטיב במעקב ולא כהאשמה נקודתית כלפי דובר יחיד.
+          </p>
+        </div>
+        <div class="controls misinfo-controls" role="search">
+          <label>
+            <span>מפלגה/גוש</span>
+            <select id="misinfoPartyFilter">
+              <option value="all">כולם</option>
+            </select>
+          </label>
+          <label>
+            <span>חומרה</span>
+            <select id="misinfoSeverityFilter">
+              <option value="all">כל החומרות</option>
+              <option value="high">גבוהה</option>
+              <option value="medium">בינונית</option>
+              <option value="low">נמוכה/הקשר</option>
+            </select>
+          </label>
+          <label>
+            <span>סטטוס אימות</span>
+            <select id="misinfoStatusFilter">
+              <option value="all">כל הסטטוסים</option>
+              <option value="false">לא נכון</option>
+              <option value="misleading">מטעה/חסר הקשר</option>
+              <option value="narrative">נרטיב פייק מתועד</option>
+              <option value="watch">במעקב</option>
+            </select>
+          </label>
+        </div>
+        <div id="misinfoList" class="misinfo-list"></div>
+      </section>
+
+      <section id="reliability" class="reliability">
+        <div class="section-heading">
+          <p class="eyebrow">אמינות מקורות</p>
+          <h2>חדשות הן לא כולן אותו דבר</h2>
+          <p>
+            טענות עובדתיות נשענות קודם על מסמכים רשמיים, הכנסת ומאגרי חקיקה. עיתונות חופשית
+            ותחקירים עצמאיים מוסיפים הקשר וביקורת, ובמקורות עם הטיה גבוהה נדרש אימות נוסף.
+          </p>
+        </div>
+        <div id="reliabilityGrid" class="reliability-grid"></div>
+      </section>
+
+      <section id="method" class="method">
+        <div>
+          <p class="eyebrow">שיטת עבודה</p>
+          <h2>כל טענה צריכה מקור, וכל מקור צריך הקשר.</h2>
+        </div>
+        <ol>
+          <li>מקור רשמי של המפלגה משמש לתיאור המצע והעמדות המוצהרות.</li>
+          <li>מקורות הכנסת ומעקב חקיקה משמשים לבדיקה מה עבר, התקדם או נפל.</li>
+          <li>עיתונות חופשית, תחקירים ואתרי ניתוח משמשים להקשר ציבורי, לא כתחליף למסמך רשמי.</li>
+          <li>מקורות פרשנות או בעלי הטיה גבוהה אינם משמשים כמקור יחיד לטענה עובדתית.</li>
+          <li>טענות ללא אימות מספיק מסומנות כ״דורש בדיקה״ ולא מוצגות כעובדה סגורה.</li>
+          <li>בדיקה יומית מחפשת שינויי מצע, איחודים/פיצולים, רשימות מועמדים, חקיקה והצבעות.</li>
+        </ol>
+      </section>
+
+      <section id="sources" class="sources">
+        <div class="section-heading compact">
+          <p class="eyebrow">מקורות</p>
+          <h2>קישורים ששימשו לגרסה הזאת</h2>
+        </div>
+        <div id="sourceList" class="source-list"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        אלקשן הוא כלי השוואה אזרחי. הוא לא המלצת הצבעה, לא תחליף לעיון במצע מלא,
+        ולא קובע אמת משפטית מחייבת.
+      </p>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" type="button" aria-label="חזרה לראש הדף" title="חזרה לראש הדף">
+      ↑
+    </button>
+
+    <script src="tools/trust.js"></script>
+    <script src="tools/compass.js"></script>
+    <script src="tools/coalition.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+name: Daily data update
+
+# Automation proposes; a human reviews and merges. This refreshes the live data
+# layers — Knesset legislation, linked bill statuses, and multi-house poll
+# averages — validates them, and opens a PR only when something actually changed.
+on:
+  schedule:
+    - cron: "0 5 * * *" # 05:00 UTC daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # 1) Knesset legislative data (bills/factions) + a human-readable diff.
+      - name: Fetch + diff Knesset data
+        run: npm run data:update
+
+      # 2) Refresh the status of the bills linked to pledges.
+      #    continue-on-error: a transient API outage must not block the rest.
+      - name: Refresh linked bill statuses
+        continue-on-error: true
+        run: node tools/link-pledges.js
+
+      # 3) Multi-house poll averages (last 7 days) → seats + coalition math.
+      - name: Refresh poll averages
+        continue-on-error: true
+        run: npm run data:polls -- --write
+
+      # Never propose broken data: validate + test the refreshed dataset.
+      - name: Validate and test the refreshed data
+        run: |
+          npm run research:validate
+          npm test
+
+      # Opens a PR only if the refresh produced real changes (no-op on a clean tree).
+      - name: Open a review PR when data changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: data/daily-update
+          title: "Daily data refresh (Knesset + polls) — review required"
+          commit-message: "chore(data): scheduled refresh of Knesset data and poll averages"
+          body: |
+            Automated daily refresh — **review before merging**.
+
+            - Knesset legislation + bill statuses (official OData)
+            - Poll averages / seats / coalition math (israel-polls-2026 aggregator, graded C)
+
+            See the file diff and `data/knesset/CHANGES.md` for what moved.
+          labels: data-update

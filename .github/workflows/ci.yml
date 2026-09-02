@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # No dependencies — the project is dependency-free by design.
+      - name: Syntax check
+        run: npm run check
+      - name: Validate research data
+        run: npm run research:validate
+      - name: Unit tests
+        run: npm test

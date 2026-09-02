@@ -1,0 +1,15 @@
+{
+  "name": "elaction",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "check": "node -e \"new Function(require('fs').readFileSync('app.js','utf8')); console.log('syntax ok')\"",
+    "test": "node --test",
+    "serve": "node tools/serve.js",
+    "data:build": "node tools/fetch-knesset.js",
+    "data:update": "node tools/daily-update.js",
+    "data:polls": "node tools/fetch-polls.js",
+    "research:summary": "node tools/query-research.js summary",
+    "research:validate": "node tools/validate-research.js"
+  }
+}
