@@ -3,7 +3,7 @@
     "provider": "Knesset OData v4",
     "entity": "KNS_Faction",
     "queryUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction?$format=json&$filter=KnessetNum%20eq%2025&$orderby=Name",
-    "fetchedAt": "2026-09-02T19:28:35.869Z",
+    "fetchedAt": "2026-09-05T08:54:04.608Z",
     "count": 16
   },
   "records": [
@@ -19,7 +19,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1108)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -34,7 +34,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1096)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -49,7 +49,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1098)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -64,7 +64,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1100)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -79,7 +79,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1097)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -94,7 +94,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1105)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -109,7 +109,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1095)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -124,7 +124,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1103)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -139,7 +139,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1109)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -154,7 +154,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1101)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -169,7 +169,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1102)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -184,7 +184,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1104)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -199,7 +199,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1110)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -214,7 +214,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1107)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -229,7 +229,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1106)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     },
     {
@@ -244,7 +244,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1099)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-09-05T08:54:04.608Z"
       }
     }
   ]
