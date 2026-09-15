@@ -7,17 +7,20 @@
     "language": "he",
     "direction": "rtl",
     "purpose": "מאגר JSON מרכזי לשאלון התאמה, השוואת מפלגות, בדיקת הבטחות, פיד עדכונים וסיווג אמינות מקורות.",
-    "pollsUpdatedAt": "2026-09-02",
+    "pollsUpdatedAt": "2026-09-10",
     "pollsWindow": {
       "days": 7,
-      "polls": 8,
+      "polls": 15,
       "houses": [
-        "Filber",
         "Lazar",
-        "Yossi Tatika",
         "Kantar",
+        "Filber",
         "Midgam",
-        "Direct Polls"
+        "S.M.L.T.",
+        "Direct Polls",
+        "HaMadad",
+        "Maagar Mochot",
+        "Yossi Tatika"
       ]
     }
   },
@@ -1409,8 +1412,8 @@
   "polls": [
     {
       "party": "הליכוד",
-      "mandates": 24.6,
-      "display": "24.6",
+      "mandates": 22.5,
+      "display": "22.5",
       "bloc": "גוש נתניהו",
       "sourceIds": [
         "themadad-polls26",
@@ -1421,8 +1424,8 @@
     {
       "party": "ישר! עם איזנקוט",
       "displayName": "ישר! - גדי איזנקוט",
-      "mandates": 24.1,
-      "display": "24.1",
+      "mandates": 23.3,
+      "display": "23.3",
       "bloc": "אופוזיציה ציונית/מרכז",
       "sourceIds": [
         "themadad-polls26",
@@ -1433,8 +1436,8 @@
     {
       "party": "ביחד",
       "displayName": "ביחד - בנט ולפיד",
-      "mandates": 11.9,
-      "display": "11.9",
+      "mandates": 12.2,
+      "display": "12.2",
       "bloc": "אופוזיציה ציונית/מרכז",
       "sourceIds": [
         "themadad-polls26",
@@ -1445,8 +1448,8 @@
     {
       "party": "הדמוקרטים / העבודה-מרצ",
       "displayName": "הדמוקרטים",
-      "mandates": 9.4,
-      "display": "9.4",
+      "mandates": 9.3,
+      "display": "9.3",
       "bloc": "אופוזיציה ציונית/שמאל",
       "sourceIds": [
         "themadad-polls26",
@@ -1456,8 +1459,8 @@
     },
     {
       "party": "ישראל ביתנו",
-      "mandates": 8.3,
-      "display": "8.3",
+      "mandates": 7.9,
+      "display": "7.9",
       "bloc": "אופוזיציה ציונית/ימין ליברלי",
       "sourceIds": [
         "themadad-polls26",
@@ -1467,8 +1470,8 @@
     },
     {
       "party": "ש״ס",
-      "mandates": 8,
-      "display": "8",
+      "mandates": 7.9,
+      "display": "7.9",
       "bloc": "גוש נתניהו",
       "sourceIds": [
         "themadad-polls26",
@@ -1478,8 +1481,8 @@
     },
     {
       "party": "עוצמה יהודית",
-      "mandates": 7.1,
-      "display": "7.1",
+      "mandates": 7.6,
+      "display": "7.6",
       "bloc": "גוש נתניהו",
       "sourceIds": [
         "themadad-polls26",
@@ -1490,8 +1493,8 @@
     {
       "party": "יהדות התורה / דגל התורה ואגודת ישראל",
       "displayName": "יהדות התורה",
-      "mandates": 7.8,
-      "display": "7.8",
+      "mandates": 7.5,
+      "display": "7.5",
       "bloc": "גוש נתניהו/חרדי",
       "sourceIds": [
         "themadad-polls26",
@@ -1502,8 +1505,8 @@
     {
       "party": "חד״ש / תע״ל",
       "displayName": "חד״ש-תע״ל",
-      "mandates": 7.3,
-      "display": "7.3",
+      "mandates": 7.1,
+      "display": "7.1",
       "bloc": "ערבי/אזרחי",
       "sourceIds": [
         "themadad-polls26",
@@ -1513,8 +1516,8 @@
     },
     {
       "party": "רע״מ",
-      "mandates": 4.9,
-      "display": "4.9",
+      "mandates": 5.1,
+      "display": "5.1",
       "bloc": "ערבי/אזרחי",
       "sourceIds": [
         "themadad-polls26",
@@ -1524,8 +1527,8 @@
     },
     {
       "party": "הציונות הדתית",
-      "mandates": 3,
-      "display": "3",
+      "mandates": 5.7,
+      "display": "5.7",
       "bloc": "גוש נתניהו/ימין דתי",
       "sourceIds": [
         "themadad-polls26",
@@ -1547,8 +1550,8 @@
     {
       "party": "כחול לבן / המחנה הממלכתי",
       "displayName": "כחול לבן",
-      "mandates": 0,
-      "display": "0",
+      "mandates": 0.3,
+      "display": "0.3",
       "bloc": "מרכז",
       "sourceIds": [
         "themadad-polls26",
@@ -3872,7 +3875,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2197909)",
-        "fetchedAt": "2026-09-02T19:28:37.542Z"
+        "fetchedAt": "2026-09-15T09:54:35.344Z"
       },
       "statusDesc": "התקבלה בקריאה שלישית",
       "knessetUrl": "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawBill.aspx?t=lawsuggestionssearch&lawitemid=2197909"
@@ -3891,7 +3894,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(1046237)",
-        "fetchedAt": "2026-09-02T19:28:37.542Z"
+        "fetchedAt": "2026-09-15T09:54:35.344Z"
       },
       "statusDesc": "התקבלה בקריאה שלישית",
       "knessetUrl": "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawBill.aspx?t=lawsuggestionssearch&lawitemid=1046237"
@@ -3910,7 +3913,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2211922)",
-        "fetchedAt": "2026-09-02T19:28:37.542Z"
+        "fetchedAt": "2026-09-15T09:54:35.344Z"
       },
       "statusDesc": "נעצרה",
       "knessetUrl": "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawBill.aspx?t=lawsuggestionssearch&lawitemid=2211922"
