@@ -3,7 +3,7 @@
     "provider": "Knesset OData v4",
     "entity": "KNS_Faction",
     "queryUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction?$format=json&$filter=KnessetNum%20eq%2025&$orderby=Name",
-    "fetchedAt": "2026-09-02T19:28:35.869Z",
+    "fetchedAt": "2026-11-14T11:59:37.630Z",
     "count": 16
   },
   "records": [
@@ -12,14 +12,14 @@
       "factionId": 1108,
       "name": "הימין הממלכתי ",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2024-03-13T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1108)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -27,14 +27,14 @@
       "factionId": 1096,
       "name": "הליכוד ",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-15T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1096)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -49,7 +49,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1098)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -57,14 +57,14 @@
       "factionId": 1100,
       "name": "העבודה",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-15T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1100)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -79,7 +79,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1097)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -87,14 +87,14 @@
       "factionId": 1105,
       "name": "הציונות הדתית בראשות בצלאל סמוטריץ'",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-20T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1105)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -102,14 +102,14 @@
       "factionId": 1095,
       "name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-15T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1095)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -117,14 +117,14 @@
       "factionId": 1103,
       "name": "חד\"ש-תע\"ל",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-15T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1103)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -139,7 +139,7 @@
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1109)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -147,14 +147,14 @@
       "factionId": 1101,
       "name": "יהדות התורה",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-15T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1101)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -162,14 +162,14 @@
       "factionId": 1102,
       "name": "יש עתיד",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-15T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1102)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -177,14 +177,14 @@
       "factionId": 1104,
       "name": "ישראל ביתנו",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-15T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1104)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -192,14 +192,14 @@
       "factionId": 1110,
       "name": "כחול לבן - המחנה הממלכתי",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2025-07-08T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1110)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -207,14 +207,14 @@
       "factionId": 1107,
       "name": "נעם - בראשות אבי מעוז",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-20T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1107)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -222,14 +222,14 @@
       "factionId": 1106,
       "name": "עוצמה יהודית בראשות איתמר בן גביר",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-15T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1106)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
@@ -237,14 +237,14 @@
       "factionId": 1099,
       "name": "רע\"ם",
       "knesset": 25,
-      "isCurrent": true,
+      "isCurrent": false,
       "startDate": "2022-11-15T00:00:00",
-      "finishDate": null,
+      "finishDate": "2026-11-10T00:00:00",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Faction",
         "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction(1099)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     }
   ]

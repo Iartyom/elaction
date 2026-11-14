@@ -3,1017 +3,235 @@
     "provider": "Knesset OData v4",
     "entity": "KNS_Bill",
     "queryUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill?$format=json&$filter=KnessetNum%20eq%2025&$orderby=LastUpdatedDate%20desc&$top=200",
-    "fetchedAt": "2026-09-02T19:28:35.869Z",
+    "fetchedAt": "2026-11-14T11:59:37.630Z",
     "count": 100
   },
   "records": [
     {
-      "id": "bill-2230015",
-      "billId": 2230015,
-      "name": "חוק משפחות חיילים שנספו במערכה (תגמולים ושיקום) (תיקון מס' 47), התשפ\"ו-2026",
+      "id": "bill-2202192",
+      "billId": 2202192,
+      "name": "הצעת חוק ביטוח בריאות ממלכתי (תיקון - סבסוד מחוללי חמצן ניידים), התשפ\"ג-2023",
       "knesset": 25,
-      "type": "ממשלתית",
+      "type": "פרטית",
+      "statusId": 177,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202192)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2202188",
+      "billId": 2202188,
+      "name": "הצעת חוק הביטוח הלאומי (תיקון - משלוח הודעה בדבר זכאות המבוטח), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 177,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202188)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2199419",
+      "billId": 2199419,
+      "name": "הצעת חוק לימוד חובה (תיקון - חובת דיווח על היעדרות תלמיד), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 177,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2199419)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2224146",
+      "billId": 2224146,
+      "name": "הצעת חוק המרכז לגביית קנסות, אגרות והוצאות (תיקון - חובת איתור חייבים), התשפ\"ה-2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 177,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2224146)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2202593",
+      "billId": 2202593,
+      "name": "הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר דמי נסיעה באמבולנס למי שהגיע לגיל פרישה), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 177,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202593)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2202827",
+      "billId": 2202827,
+      "name": "הצעת חוק עבודת נשים (תיקון - הארכת תקופת הלידה וההורות להורי פעוט עם מוגבלות מורכבת), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 122,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202827)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2203246",
+      "billId": 2203246,
+      "name": "הצעת חוק הגנת הצרכן (תיקון - חובת הקלטה של עסקה טלפונית), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 122,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2203246)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2228059",
+      "billId": 2228059,
+      "name": "הצעת חוק יום המודעות למאבק במחלת הסרטן, התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2228059)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2195995",
+      "billId": 2195995,
+      "name": "חוק ביטוח בריאות ממלכתי (תיקון מס' 75), התשפ\"ו–2026",
+      "knesset": 25,
+      "type": "פרטית",
       "statusId": 118,
-      "number": 1852,
-      "publicationDate": "2026-01-28T14:54:00",
-      "summary": "חוק זה מתקן את חוק משפחות חיילים שנספו במערכה (תגמולים ושיקום), התש\"י-1959 וקובע הסדרים חדשים והוראות לעניין המעטפת, ההטבות והזכויות שניתנות למשפחות השכולות של חללי צה\"ל, כוחות הביטחון ונפגעי פעולות איבה.\nהחוק קובע הוראות שונות ובהן - העלאת \"גיל היתמות\" מ-21 ל-30, מתן תגמול חודשי ליתום מגיל 21 ועד גיל 40, ומענק חד-פעמי של 50,000 ש\"ח ליתומים מעל גיל 30.\nבנוסף, הוגדל משמעותית סכום מענק הדיור והנישואין לו זכאים יתומים לכ-300,000 ש\"ח, הורחב סל הסיוע הרגשי והטיפולים שניתנים במסגרתו, הורחבו המענקים והסיוע בתחום החינוך והלימודים, ונקבע סיוע מיוחד למי שהוכר כ\"יתום עצמאי\" לפני גיל 18. עוד נקבע כי ליתום עד גיל 30 שאינו משתכר, יינתן סל שיקום תעסוקתי הכולל תגמול והכשרה מקצועית.\nבנוסף נקבע שיתום שהתייתם, בכל גיל, משני הוריו, כשאחד מהם הוא חלל צה\"ל או נרצח בפעולת איבה, יהיה זכאי לתגמול במשך כ13 שנים או עד גיל 50, לפי המוקדם.\nהחוק כולל גם שינויים ותיקונים ביחס לאלמנות ובהם - תגמול חודשי נוסף בגובה השכר הממוצע במשק בשנה הראשונה לשכול, הגדלת הסיוע החודשי והתגמול לאלמנות עם ילדים עד גיל 6, ושיפור במענקי רכב ודיור. להורה שכול ואלמנה נקבע מענק מיוחד למקרי מצוקה וקשיים כלכליים.\nהחוק מעניק גם תגמול חודשי למשפחות המלוות יתומים שהתייתמו משני הוריהם עד גיל 25, לאפוטרופוס ליתום שטרם מלאו לו 6 שנים, וכן סיוע להורים שכולים לילדים קטנים.\n",
+      "number": 1137,
+      "publicationDate": "2026-05-17T18:14:00",
+      "summary": "החוק קובע כי מבוטח שאובחן עם מחלה או הפרעה נפשית קשה (סכיזופרניה, הפרעה דו-קוטבית או הפרעה סכיזו-אפקטיבית) יהיה זכאי מקופת החולים להחזר בשיעור של 80% מההוצאה בעד הסעתו באמבולנס או בניידת טיפול נמרץ לשם קבלת שירות במחלקה לרפואה דחופה או בחדר מיון (לרבות מיון בבית חולים פסיכיאטרי), שהסתיימה ללא אשפוז, וזאת החל מההסעה השנייה בכל שנה קלנדרית. כמו כן נקבע שהוא זכאי להחזר כאמור בעד הזעקת אמבולנס שהסתיימה בטיפול רפואי בזירת האירוע החל מההזעקה השנייה באותה בכל שנה קלנדרית. סכום כל אחד מההחזרים לא יעלה על 80% מסכום האגרה בתעריף הנמוך הקבועה בתקנות מגן דוד אדום (אגרות הסעת חירום באמבולנס), התשס\"ו-2006 לעניין הסעה או הזעקה שאינה במימון הקופה, וגם סכום האגרה שקופות החולים משלמות בעד פינוי או הזעקה בתנאים האמורים יחושב לפי תעריף נמוך זה.",
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2230015)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2195995)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2239944",
-      "billId": 2239944,
-      "name": "הצעת חוק יום לציון מורשת יהדות הודו, התשפ\"ו-2026",
+      "id": "bill-2198723",
+      "billId": 2198723,
+      "name": "הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר דמי נסיעה באמבולנס עבור מטופל בתחום בריאות הנפש), התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2239944)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2239606",
-      "billId": 2239606,
-      "name": "הצעת חוק העמותות (תיקון - הסדרת מעמדן של אגודות עותמאניות כעמותות רשומות),  התשפ\"ו-2026",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2239606)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2237968",
-      "billId": 2237968,
-      "name": "הצעת חוק שירות מידע פיננסי (תיקון - פטור וגישה למידע לסוכני ביטוח), התשפ״ו-2026",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2237968)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2237967",
-      "billId": 2237967,
-      "name": "הצעת חוק החלת הריבונות הישראלית על מתחם מערת המכפלה, התשפ\"ו-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2237967)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2237670",
-      "billId": 2237670,
-      "name": "הצעת חוק לתיקון פקודת התעבורה (שינוי שיטת החישוב של דמי חניה בחניון), התשפ\"ו-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2237670)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2236326",
-      "billId": 2236326,
-      "name": "הצעת חוק יום לציון עליית יהודי צפון אפריקה לישראל במאה ה-19 (עליית הת\"ר), התשפ\"ו-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2236326)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2235668",
-      "billId": 2235668,
-      "name": "הצעת חוק התקשורת (שידורים), התשפ\"ו-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2235668)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2235231",
-      "billId": 2235231,
-      "name": "הצעת חוק רשות ההסברה הלאומית, התשפ\"ו-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2235231)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2235128",
-      "billId": 2235128,
-      "name": "הצעת חוק תכנון משק החלב (תיקון - ביטול החוק), התשפ\"ו-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2235128)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2234519",
-      "billId": 2234519,
-      "name": "הצעת חוק רישוי שירותים ומקצועות בענף הרכב (תיקון - הסרת מגבלות והרחבת אפשרות יבוא כלי רכב), התשפ\"ו-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2234519)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2229307",
-      "billId": 2229307,
-      "name": "הצעת חוק הסדרת השימוש בקנאביס למטרות רפואיות, התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2229307)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2229202",
-      "billId": 2229202,
-      "name": "הצעת חוק לתיקון פקודת התעבורה (ביטול חובת קביעת אזורי חניה), התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2229202)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2229200",
-      "billId": 2229200,
-      "name": "הצעת חוק הגנת הצרכן (תיקון - שינוי יעד של משלוח טובין), התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2229200)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2229093",
-      "billId": 2229093,
-      "name": "הצעת חוק איסור הפליית משרתים בשירות הביטחוני, הלאומי והאזרחי, התשפ\"ה-2025 ",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2229093)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2228967",
-      "billId": 2228967,
-      "name": "הצעת חוק-יסוד: הממשלה (תיקון - הגבלת מספר שרים וסגני שרים)",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2228967)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2228309",
-      "billId": 2228309,
-      "name": "הצעת חוק יום הרבי מלובביץ' (ציון פועלו), התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2228309)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2227880",
-      "billId": 2227880,
-      "name": "הצעת חוק לביטול ההפליה ברכישת מקרקעין ביהודה והשומרון, התשפ\"ה- 2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227880)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2227747",
-      "billId": 2227747,
-      "name": "הצעת חוק לעידוד השקעות הון (תיקון - מרכזים לוגיסטיים), התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227747)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2227745",
-      "billId": 2227745,
-      "name": "הצעת חוק הגנה על ריבונות ישראלית והגבלת שיתוף פעולה עם בית הדין הפלילי הבין-לאומי, התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227745)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2227743",
-      "billId": 2227743,
-      "name": "הצעת חוק עידוד שירות צבאי, לאומי או לאומי-אזרחי במוסדות להשכלה גבוהה, התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227743)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2227717",
-      "billId": 2227717,
-      "name": "הצעת חוק-יסוד: הצבא (תיקון - שמירה על אורח חיים דתי)",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227717)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2227716",
-      "billId": 2227716,
-      "name": "הצעת חוק הפיקוח הפרלמנטרי, התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227716)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2227715",
-      "billId": 2227715,
-      "name": "הצעת חוק איסור לשון הרע (תיקון - פיצוי בגין האשמות שווא בדבר פשעי מלחמה), התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227715)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2227714",
-      "billId": 2227714,
-      "name": "הצעת חוק גירוש מיידי של מסתננים התומכים במשטר מדינתם, התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227714)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2227707",
-      "billId": 2227707,
-      "name": "הצעת חוק גירוש מסתננים תומכי המשטר במדינת אריתריאה ומסתננים שביצעו עבירות במדינת ישראל, התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227707)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2225110",
-      "billId": 2225110,
-      "name": "הצעת חוק אסדרת שוק הקנאביס לצריכה עצמית, התשפ\"ה-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2225110)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2224247",
-      "billId": 2224247,
-      "name": "הצעת חוק-יסוד: השפיטה (תיקון - שלילת זכות עמידה למתגמל טרור)",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2224247)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2223879",
-      "billId": 2223879,
-      "name": "הצעת חוק שירות המדינה (מינויים) (תיקון - מניעת העסקת קרובי משפחה בשירות הציבורי), התשפ\"ה-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2223879)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2223868",
-      "billId": 2223868,
-      "name": "הצעת חוק התקשורת (בזק ושידורים) (תיקון - הרשות והמועצה לתקשורת משודרת), התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2223868)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2222862",
-      "billId": 2222862,
-      "name": "הצעת חוק לידה שקטה (תיקוני חקיקה), התשפ\"ה-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2222862)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2222700",
-      "billId": 2222700,
-      "name": "הצעת חוק העברת אמצעי לחימה רוסיים שנתפסו בלבנון וברשות הפלסטינית לטובת חימוש אוקראינה, התשפ\"ה-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2222700)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2222199",
-      "billId": 2222199,
-      "name": "הצעת חוק כלי הירייה (תיקון - חימוש אזרחים בנשק ארוך בשעת חירום), התשפ\"ה-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2222199)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2222198",
-      "billId": 2222198,
-      "name": "הצעת חוק חימוש כל אדם מכוחות הביטחון המוצב בקו עימות או סמוך אליו, התשפ\"ה-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2222198)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2221935",
-      "billId": 2221935,
-      "name": "הצעת חוק הסדרת העיסוק בייעוץ השקעות, בשיווק השקעות ובניהול תיקי השקעות (תיקון - לקוח כשיר), התשפ\"ה-2025",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2221935)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2221934",
-      "billId": 2221934,
-      "name": "הצעת חוק מסירת מידע לחברי הכנסת ולוועדות הכנסת (תיקוני חקיקה), התשפ\"ה-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2221934)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2221933",
-      "billId": 2221933,
-      "name": "הצעת חוק הפיקוח על שירותים פיננסיים (ביטוח) (תיקון - חברות זרות), התשפ\"ה-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2221933)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2221210",
-      "billId": 2221210,
-      "name": "הצעת חוק תשלומי פיצוי על כניסת מוצרים שאינם סיוע הומניטרי, התשפ\"ה-2024 ",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2221210)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2220609",
-      "billId": 2220609,
-      "name": "הצעת חוק מניעת ייצוג משפטי של מדינת ישראל ממחבלים זרים (תיקוני חקיקה), התשפ\"ד-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2220609)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2220142",
-      "billId": 2220142,
-      "name": "הצעת חוק המועצה לענף הלול (ייצור ושיווק) (תיקון - סימון ביצים), התשפ\"ד-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2220142)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2218748",
-      "billId": 2218748,
-      "name": "הצעת חוק הרשויות המקומיות (מימון בחירות) (הוראת שעה) (הארכת מועד לבקשת קבלת מימון), התשפ\"ד-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2218748)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2216448",
-      "billId": 2216448,
-      "name": "הצעת חוק לתיקון פקודת המשטרה (המחלקה לחקירת שוטרים), התשפ\"ד-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2216448)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2215762",
-      "billId": 2215762,
-      "name": "הצעת חוק הגבלת אספקת שירותים ומוצרים לגורמי ביטחון, התשפ\"ד-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2215762)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2214691",
-      "billId": 2214691,
-      "name": "הצעת חוק להפסקת פעילות סוכנות הסעד והתעסוקה של האו\"ם לפליטי פלסטין במזרח הקרוב (אונר\"א), התשפ\"ד-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2214691)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2213683",
-      "billId": 2213683,
-      "name": "הצעת חוק הממשלה (תיקון - ביצוע בדיקת פוליגרף לחברי ועדת השרים לענייני ביטחון לאומי), התשפ\"ד-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2213683)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2210349",
-      "billId": 2210349,
-      "name": "הצעת חוק התכנון והבנייה (תיקון - פיצול דירות) (הוראת שעה), התשפ\"ד-2023",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2210349)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2210334",
-      "billId": 2210334,
-      "name": "הצעת חוק לתיקון פקודת בריאות העם (פטור מבחינות לאחיות ממדינות חוץ), התשפ\"ד-2024",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2210334)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2210328",
-      "billId": 2210328,
-      "name": "הצעת חוק לתיקון פקודת מס הכנסה (הגדלת מספר התושבים ביישוב מוטב), התשפ\"ד-2023",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2210328)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2209904",
-      "billId": 2209904,
-      "name": "הצעת חוק למניעת הוצאה של כספים מישראל על ידי מסתנן או נתין זר או עבורו, התשפ\"ד-2023",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2209904)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2209879",
-      "billId": 2209879,
-      "name": "הצעת חוק העונשין (תיקון - העלבת חייל והפרעה לחייל במילוי תפקידו), התשפ\"ד-2023",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2209879)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2209878",
-      "billId": 2209878,
-      "name": "הצעת חוק לתיקון פקודת הסמים המסוכנים (שימוש עצמי בקנבוס), התשפ\"ד-2023",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2209878)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2209875",
-      "billId": 2209875,
-      "name": "הצעת חוק הביטוח הלאומי (תיקון - ביטול דרישה לחתימת הורים כתנאי למשיכת כספי החיסכון), התשפ\"ד-2023",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2209875)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2209874",
-      "billId": 2209874,
-      "name": "הצעת חוק השיפוט הצבאי (תיקון - הגבלה על פרסום של פרטי חייל, צילום פניו או כל פרט מזהה אחר בעת מילוי תפקידו), התשפ\"ד-2023 ",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2209874)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2209873",
-      "billId": 2209873,
-      "name": "הצעת חוק הביטוח הלאומי (תיקון - מסלול ברירת מחדל בהפקדות לחיסכון ארוך טווח לילד), התשפ\"ד-2023",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2209873)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2209872",
-      "billId": 2209872,
-      "name": "הצעת חוק בתי דין רבניים (קיום פסקי דין של גירושין) (תיקון - הגבלת שימוש בכרטיסי אשראי לסרבני גט), התשפ\"ד-2023",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
-      "number": null,
-      "publicationDate": null,
-      "summary": null,
-      "source": {
-        "provider": "Knesset OData v4",
-        "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2209872)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
-      }
-    },
-    {
-      "id": "bill-2209870",
-      "billId": 2209870,
-      "name": "הצעת חוק שוברים להשלמת לימודי בסיס בחינוך הבלתי פורמלי, התשפ\"ד-2023",
-      "knesset": 25,
-      "type": "פרטית",
-      "statusId": 177,
+      "statusId": 122,
       "number": null,
       "publicationDate": null,
       "summary": null,
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2209870)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2198723)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2208173",
-      "billId": 2208173,
-      "name": "הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - שיפוי רשויות מקומיות בגין הנחה כפויה בארנונה), התשפ\"ג-2023",
+      "id": "bill-2215076",
+      "billId": 2215076,
+      "name": "הצעת חוק ביטוח בריאות ממלכתי (תיקון - מתן מענה מנומק על ידי קופת החולים), התשפ\"ד-2024",
       "knesset": 25,
       "type": "פרטית",
-      "statusId": 177,
+      "statusId": 108,
       "number": null,
       "publicationDate": null,
       "summary": null,
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2208173)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2215076)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207354",
-      "billId": 2207354,
-      "name": "הצעת חוק הצבעה גלויה בכנסת (תיקוני חקיקה), התשפ\"ג-2023",
+      "id": "bill-2198000",
+      "billId": 2198000,
+      "name": "הצעת חוק שיקים ללא כיסוי (תיקון - הקלות בהגבלת חשבון), התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
-      "statusId": 177,
+      "statusId": 108,
       "number": null,
       "publicationDate": null,
       "summary": null,
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207354)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2198000)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207333",
-      "billId": 2207333,
-      "name": "הצעת חוק עיטור ההדר, התשפ\"ג-2023",
+      "id": "bill-2215925",
+      "billId": 2215925,
+      "name": "הצעת חוק חניה לנכים (תיקון - זכאות תג נכה לצמיתות), התשפ\"ד-2024",
       "knesset": 25,
       "type": "פרטית",
-      "statusId": 177,
+      "statusId": 150,
       "number": null,
       "publicationDate": null,
       "summary": null,
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207333)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2215925)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207261",
-      "billId": 2207261,
-      "name": "הצעת חוק לתיקון פקודת בתי הסוהר (שלילת זכויות יתר מאסיר ביטחוני המשתייך לארגון טרור), התשפ\"ג-2023",
+      "id": "bill-2202787",
+      "billId": 2202787,
+      "name": "הצעת חוק הגנת הצרכן (תיקון - מענה אנושי בשירות טלפוני לאזרח ותיק), התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1023,48 +241,48 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207261)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202787)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207259",
-      "billId": 2207259,
-      "name": "הצעת חוק מאבק בארגוני פשיעה (תיקון - הרחבת הנסיבה המחמירה לזיקה לארגון פשיעה), התשפ\"ג-2023",
+      "id": "bill-2197997",
+      "billId": 2197997,
+      "name": "הצעת חוק הגנת השכר (תיקון - איסור ניכוי חוב או קנס), התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
-      "statusId": 177,
+      "statusId": 122,
       "number": null,
       "publicationDate": null,
       "summary": null,
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207259)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2197997)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207258",
-      "billId": 2207258,
-      "name": "הצעת חוק עובדים זרים (תיקון - הפחתת אגרה לעובדים בענף המלונאות), התשפ\"ג-2023",
+      "id": "bill-2238278",
+      "billId": 2238278,
+      "name": "הצעת חוק זכויות הסטודנט (תיקון - התאמות בהשכלה גבוהה לסטודנטים עקב מחלה קשה), התשפ\"ו-2025",
       "knesset": 25,
       "type": "פרטית",
-      "statusId": 177,
+      "statusId": 108,
       "number": null,
       "publicationDate": null,
       "summary": null,
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207258)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2238278)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207171",
-      "billId": 2207171,
-      "name": "הצעת חוק עובדים זרים (תיקון - אי־תחולת הסדר פנסיוני על עובד זר המועסק אצל יחיד בענף הסיעוד), התשפ\"ג-2023",
+      "id": "bill-2211580",
+      "billId": 2211580,
+      "name": "הצעת חוק התגמולים לנפגעי פעולות איבה (תיקון - תגמול לכל החיים ליתום מהורה אחד), התשפ\"ד-2023",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1074,14 +292,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207171)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2211580)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207164",
-      "billId": 2207164,
-      "name": "הצעת חוק ביטוח בריאות ממלכתי (תיקון - בחירה מבין נותני השירותים), התשפ\"ג-2023",
+      "id": "bill-2212239",
+      "billId": 2212239,
+      "name": "הצעת חוק-יסוד: הממשלה (תיקון - הפסקת כהונה של ראש הממשלה או שר מחמת הגשת כתב אישום)",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1091,14 +309,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207164)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2212239)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207163",
-      "billId": 2207163,
-      "name": "הצעת חוק הכניסה לישראל (תיקון - איסור כניסת פעילי טרור), התשפ\"ג-2023",
+      "id": "bill-2237274",
+      "billId": 2237274,
+      "name": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר, התשפ\"ו-2025",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1108,31 +326,31 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207163)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2237274)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207162",
-      "billId": 2207162,
-      "name": "הצעת חוק ביטוח בריאות ממלכתי (תיקון - העברת תיק רפואי במעבר בין קופות חולים), התשפ\"ג-2023",
+      "id": "bill-2216198",
+      "billId": 2216198,
+      "name": "הצעת חוק סמכויות שעת חירום (מעצרים) (תיקון - מעצרים מינהליים בגין חברות בארגון טרור), התשפ\"ד-2024",
       "knesset": 25,
       "type": "פרטית",
-      "statusId": 177,
+      "statusId": 108,
       "number": null,
       "publicationDate": null,
       "summary": null,
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207162)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2216198)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207161",
-      "billId": 2207161,
-      "name": "הצעת חוק התכנון והבנייה (תיקון - מכירה ישירה של תוצרת חקלאית), התשפ\"ג-2023",
+      "id": "bill-2236170",
+      "billId": 2236170,
+      "name": "הצעת חוק הרשות לטיפול בנפגעי הלם קרב, התשפ\"ו-2025",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1142,47 +360,47 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207161)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2236170)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207155",
-      "billId": 2207155,
-      "name": "הצעת חוק המאבק בטרור (תיקון - פיצוי עונשי לנפגעי עבירה), התשפ\"ג-2023",
+      "id": "bill-2211694",
+      "billId": 2211694,
+      "name": "הצעת חוק ההתגוננות האזרחית (תיקון - פיקוח על מקלטים משותפים), התשפ\"ד-2024",
       "knesset": 25,
       "type": "פרטית",
-      "statusId": 177,
+      "statusId": 108,
       "number": null,
       "publicationDate": null,
       "summary": null,
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207155)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2211694)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207153",
-      "billId": 2207153,
-      "name": "הצעת חוק תשלום קצבאות לחיילי מילואים ולבני משפחותיהם (תיקון - השוואת תנאי אלמנות חללי המילואים), התשפ\"ג-2023",
+      "id": "bill-2222442",
+      "billId": 2222442,
+      "name": "הצעת חוק הרשות לטיפול בנפגעי הלם קרב, התשפ\"ה-2024",
       "knesset": 25,
       "type": "פרטית",
-      "statusId": 177,
+      "statusId": 150,
       "number": null,
       "publicationDate": null,
       "summary": null,
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207153)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2222442)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207151",
-      "billId": 2207151,
+      "id": "bill-2199041",
+      "billId": 2199041,
       "name": "הצעת חוק הביטוח הלאומי (תיקון - דמי לידה לעצמאיות - מתן זכות לעבודה חלקית), התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
@@ -1193,14 +411,116 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207151)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2199041)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207147",
-      "billId": 2207147,
-      "name": "הצעת חוק להסדרת מקצוע עוזר רופא, התשפ\"ג-2023",
+      "id": "bill-2202412",
+      "billId": 2202412,
+      "name": "הצעת חוק לתיקון פקודת מס הכנסה (פטור ממס במכירת מטבעות דיגיטליים לתושבי חוץ ובהקצאת מטבעות דיגיטליים לעובדים), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202412)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2227059",
+      "billId": 2227059,
+      "name": "הצעת חוק הביטוח הלאומי (תיקון - דמי לידה לעצמאיות - מתן זכות לעבודה חלקית), התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227059)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2238071",
+      "billId": 2238071,
+      "name": "הצעת חוק הביטוח הלאומי (תיקון - דמי לידה לעצמאיות - מתן זכות לעבודה חלקית), התשפ\"ו-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2238071)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2230601",
+      "billId": 2230601,
+      "name": "הצעת חוק הבנקאות (שירות ללקוח) (תיקון - ביטול פעולה מכוח הרשאה לחיוב בשל היעדר יתרה מספקת בחשבון והגבלת עמלות בשל הרשאה לחיוב), התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2230601)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2214887",
+      "billId": 2214887,
+      "name": "חוק הגנת הצרכן (תיקון מס' 70), התשפ\"ד–2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 118,
+      "number": 1004,
+      "publicationDate": "2024-07-04T00:00:00",
+      "summary": "החוק נועד להתמודד עם העלאת מחירים באופן חריג ומשמעותי לאחר הכרזה על מצב חירום. מצב חירום מוגדר כאחד מאלה: מצב מיוחד בעורף, מצב של אירוע חירום אזרחי או מצב חירום שנקבע לפי חוק לשם התמודדות עם מחלה מידבקת מסוכנת.\nהחוק קובע כי אם הוכרז על מצב חירום, ושר הכלכלה והתעשייה שוכנע כי יש חשש ממשי שעוסקים ינצלו את מצב החירום כדי להעלות מחירים של טובין ושירותים חיוניים, הוא רשאי, בהתייעצות עם שר האוצר, להכריז הכרזה על איסור השפעה בלתי הוגנת במצב חירום. החוק קובע כי בתקופת תוקפה של הכרזה זו עוסק לא יציע, יציג או ימכור לצרכן שירות או טובין המנויים ברשימה כאמור, במחיר העולה באופן ניכר וחריג על מחירו הממוצע בשלושת החודשים שקדמו להכרזה על מצב חירום. \nלעניין המוצרים והשירותים שעליהם יחולו הוראות אלו, החוק קובע כי בתקופת תוקפה של הכרזה על איסור השפעה בלתי הוגנת במצב חירום, הממונה על הגנת הצרכן והסחר ההוגן והממונה על התקציבים במשרד האוצר יהיו מוסמכים לקבוע רשימה של טובין ושירותים חיוניים, שתפורסם ברשומות, וכן יהיו מוסמכים לעדכן את הרשימה. רשימה זו תיקבע בהתחשב במאפייניו ובנסיבותיו של מצב החירום שעליו יוכרז. מחלוקת בין שני הגורמים הללו ביחס להכללת טובין או שירות מסוים ברשימה, תובא להכרעתו של נציג ציבור שימונה על ידי שר האוצר ושר הכלכלה והתעשייה, אך לא יהיה בכך כדי למנוע פרסום של רשימת הטובין והשירותים שיש לגביהם הסכמה. \nלצד איסור העלאת מחירים בעת מצב חירום נקבעו בחוק חריגים שבהם לא יראו עוסק שביצע את האמור לעיל כמי שהפעיל השפעה בלתי הוגנת. לדוגמה: מקרים שבהם העלאת המחיר נעשתה לפי דין או לפי הסכם בין עוסק לצרכן, שנחתם טרם ההכרזה על מצב חירום או מקרים שבהם העלייה במחיר השירות או הטובין נובעת מהתייקרות העלויות שבהן העוסק נדרש לשאת כדי לספק את השירות או הטובין.\nלצורך אכיפת הוראות החוק הוסמך הממונה על הצרכן והסחר ההוגן להוציא צו מינהלי להפסקת הפרה לפי סעיף 21ג לחוק לעוסק שהפעיל השפעה בלתי הוגנת בנסיבות כאמור, וכן להטיל עיצומים כספיים על עוסק שיפר את הצו המינהלי. העיצום הכספי אותו מוסמך הממונה להטיל אינו סכום קצוב מהסכומים המנויים בחוק הגנת הצרכן, אלא שיעור מתוך מחזור המכירות של המפר. \n",
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2214887)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2236601",
+      "billId": 2236601,
+      "name": "הצעת חוק זכויות החולה (תיקון - מסירת מידע למניעת פגיעה), התשפ\"ו-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 150,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2236601)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2199396",
+      "billId": 2199396,
+      "name": "הצעת חוק תאגידי מים וביוב (תיקון - הקמת ועדת הנחות), התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1210,14 +530,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207147)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2199396)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207140",
-      "billId": 2207140,
-      "name": "הצעת חוק העונשין (תיקון - הגנה על בסיסי צה\"ל, שטחי אש, תחנות משטרה ומתקנים ביטחוניים), התשפ\"ג-2023 ",
+      "id": "bill-2203637",
+      "billId": 2203637,
+      "name": "הצעת חוק הפרות מינהליות, התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1227,14 +547,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207140)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2203637)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207050",
-      "billId": 2207050,
-      "name": "הצעת חוק יום הרבי מלובביץ' (ציון זכרו ופועלו), התשפ\"ג-2023",
+      "id": "bill-2235555",
+      "billId": 2235555,
+      "name": "הצעת חוק הביטוח הלאומי (תיקון - עבודה מועדפת ביישובי קו העימות בצפון ובדרום), התשפ\"ו-2025",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1244,14 +564,31 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207050)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2235555)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207028",
-      "billId": 2207028,
-      "name": "הצעת חוק ייצוא קנאביס למטרות רפואיות, התשפ\"ג-2023",
+      "id": "bill-2231303",
+      "billId": 2231303,
+      "name": "הצעת חוק חובת פרסום שמותיהם של אסירים ביטחוניים ששוחררו ממאסר, התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 122,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2231303)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2237294",
+      "billId": 2237294,
+      "name": "הצעת חוק הביטוח הלאומי (תיקון - עבודה מועדפת ביישובי קו העימות בצפון ובדרום), התשפ\"ו-2025",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1261,14 +598,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207028)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2237294)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207021",
-      "billId": 2207021,
-      "name": "הצעת חוק עובדים בתעשיית הקנאביס, התשפ\"ג-2023",
+      "id": "bill-2214117",
+      "billId": 2214117,
+      "name": "הצעת חוק אספקת החשמל, התשפ\"ד-2024",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1278,14 +615,65 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207021)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2214117)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2207002",
-      "billId": 2207002,
-      "name": "הצעת חוק מחקר ופיתוח בקנאביס למטרות רפואיות, התשפ\"ג-2023",
+      "id": "bill-2198161",
+      "billId": 2198161,
+      "name": "הצעת חוק עידוד מעורבות סטודנטים בפעילות חברתית וקהילתית (תיקון – הקלות למשרתי מילואים), התשפ\"ג–2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 122,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2198161)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2208658",
+      "billId": 2208658,
+      "name": "חוק סיוע לסטודנטים ששירתו במילואים (תיקוני חקיקה והוראת שעה), התשפ\"ד-2024",
+      "knesset": 25,
+      "type": "ממשלתית",
+      "statusId": 118,
+      "number": 1645,
+      "publicationDate": "2024-03-31T00:00:00",
+      "summary": "החוק כולל מספר תיקונים שמטרתם מתן סיוע כספי, הקלות והתאמות לסטודנטים ששירתו במילואים או בסדיר ולבני זוגם, בין היתר על רקע מלחמת חרבות ברזל. בחוק המועצה להשכלה גבוהה, התשי\"ח–1958 הוסמכה קרן הסיוע של המל\"ג להתחשב בחלוקת המענקים גם בשירות צבאי ובשירות מילואים. בחוק עידוד מעורבות סטודנטים בפעילות חברתית וקהילתית, השתע\"ח–2018 שופרו תנאי ההכרה בשירות מילואים כמזכה בנקודות זכות במסגרת תואר אקדמי. בחוק זכויות הסטודנט, התשס\"ז–2007 נקבע כי על המל\"ג לקבוע כללים שעל בסיסם יקבעו המוסדות התאמות מיוחדות לסטודנטים ששירתו במילואים בנסיבות חירום ובהתראה קצרה מעל 30 ימים, ולבני זוג של מי ששירתו כאמור. בנוסף, נקבע כי מוסד מוסמך לתת הקלות בתנאי קבלה למי ששירתו בשירות סדיר כלוחמים, בכפוף לתנאים, וכן נקבע בהוראת שעה כי מוסד מוסמך לתת הקלות בתנאי קבלה לשנה\"ל תשפ\"ד ותשפ\"ה למי ששירתו במלחמת חרבות ברזל, בהתחשב באופי ובתקופת השירות. הוראת השעה תחול עד תום 3 חודשים מתחילת החוק ושר החינוך רשאי להאריכה ב-6 חודשים נוספים בכפוך להמשך הלחימה.",
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2208658)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2240123",
+      "billId": 2240123,
+      "name": "הצעת חוק קידום הליכי הקמת יישוב חדש, התשפ\"ו-2026",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 150,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2240123)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2240625",
+      "billId": 2240625,
+      "name": "הצעת חוק חסינות חברי הכנסת, זכויותיהם וחובותיהם (תיקון - סייג לחסינות בפני מעצר בשל אי-התייצבות לחקירה), התשפ\"ו-2026",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1295,14 +683,48 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2207002)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2240625)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206981",
-      "billId": 2206981,
-      "name": "הצעת חוק לתיקון פקודת ביטוח רכב מנועי (פוליסה לשני כלי רכב של נהג יחיד), התשפ\"ג-2023",
+      "id": "bill-2195779",
+      "billId": 2195779,
+      "name": "חוק למניעת הפליה ברישוי מחמת מצב בריאותי (תיקוני חקיקה), התשפ\"ה–2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 118,
+      "number": 1095,
+      "publicationDate": "2025-04-03T00:00:00",
+      "summary": "בפקודת הרופאים, בחוק הפסיכולוגים, בפקודת רופאי השיניים, בפקודת הרוקחים בחוק העובדים הסוציאליים, ובחוק הסדרת העיסוק במקצועות הבריאות, נכללה מחלת נפש בהגדרה \"מחלה מסכנת\", כאשר בחלק מחיקוקים אלה היא אף נכללה בהגדרה האמורה ללא תלות בשאלת השפעתה על היכולת לעסוק במקצוע או על סכנה אפשרית לבריאות האנשים שבטיפולו של בעל המקצוע.\nחוק זה מתקן את החיקוקים האמורים ומתאים אותם לרוח חוק שוויון זכויות לאנשים עם מוגבלות ולהוראותיו, בכך שהוא מוחק את ההגדרה \"מחלה מסכנת\" ואת האזכורים שלה, ומתקן בהתאמה את ההוראות הנוגעות לסמכויות הנתונות לגורמי הרישוי לעניין בדיקת כשירותם הרפואית של מבקשי רישיון ובעלי מקצוע. כך, שבין היתר, אם לגורם הרישוי יש חשש סביר כי למבקש רישיון לעסוק במקצועות המוסדרים בחיקוקים אלה, יש כושר לקוי, לרבות עקב מחלה, העלול לשלול ממנו בנסיבות העניין את היכולת לעסוק במקצוע לחלוטין, זמנית או חלקית, או שיש בו כדי לפגוע בנסיבות העניין בבריאות אנשים שבטיפולו, הוא רשאי לדרוש מהמבקש להתייצב לפני ועדה רפואית לשם בדיקה. בדומה לכך, גורם הרישוי רשאי לדרוש מבעל מקצוע להתייצב לפני ועדה רפואית לשם בדיקה אם ראה שיש לו כושר לקוי כאמור. \nכמו כן, החוק מתקן את הרכב הוועדות הרפואיות הבודקות את כשירותם הרפואית של מבקשי רישיון או של בעלי מקצוע, במקרים שבהם הם נדרשים כאמור להתייצב לפני ועדה כזו לשם בדיקה, ומוחק את ההוראה המתייחסת להרכב מיוחד במקרה של בדיקת כושר נפשי. כמו כן, החוק מתקן את הרכב הוועדות הרפואיות כך שהוא כולל שני רופאים מומחים ונציג שהוא בעל אותו מקצוע שלגביו דנים.\nלבסוף, החוק מתקן את חוק אומנה לילדים, שבו נקבע כי אחד התנאים לקבלת רישיון אומנה הוא שאין למבקש או לכל אדם המתגורר עימו לקות נפשית, מגבלה או מחלה שיש בהן כדי לפגוע ביכולתו לשמש אומן או לפגוע בילד בצורה כלשהי, ומוחק את ההתייחסות המפורשת ללקות נפשית, כך שתנאי זה מתייחס לכל לקות שיש בה כדי לפגוע כאמור. יובהר כי אין בחוק זה כדי לגרוע מהסמכות הנתונה לפי חיקוקים אלה לגורמי הרישוי לבחון את כשירותם הרפואית של מבקשי רישיון ובעלי מקצוע. \n\n",
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2195779)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2208200",
+      "billId": 2208200,
+      "name": "חוק הסיוע המשפטי (תיקון מס' 27 – הוראת שעה), התשפ\"ה–2024",
+      "knesset": 25,
+      "type": "ממשלתית",
+      "statusId": 118,
+      "number": 1639,
+      "publicationDate": "2024-10-30T00:00:00",
+      "summary": "החוק קובע הוראת שעה לפיה למשך שלוש שנים, לשכות הסיוע המשפטי במשרד המשפטים יתנו סיוע משפטי בתביעות לפי חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים, התשס\"א–2000, ללא בדיקת זכאות כלכלית.",
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2208200)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2225422",
+      "billId": 2225422,
+      "name": "הצעת חוק לתיקון פקודת מס הכנסה (תרומה למוסד ציבורי באזורי עדיפות לאומית), התשפ\"ה-2025",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1312,14 +734,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206981)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2225422)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206979",
-      "billId": 2206979,
-      "name": "הצעת חוק התכנון והבנייה (תיקון - שימוש חורג בקרקע חקלאית), התשפ\"ג-2023",
+      "id": "bill-2236084",
+      "billId": 2236084,
+      "name": "הצעת חוק יסודות התקציב (תיקון - מניעת תמיכה במוסדות המסיתים להשתמטות), התשפ\"ו-2025",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1329,14 +751,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206979)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2236084)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206978",
-      "billId": 2206978,
-      "name": "הצעת חוק מימון טיפול בקנאביס רפואי לילדים חולי אפילפסיה, התשפ\"ג-2023",
+      "id": "bill-2196375",
+      "billId": 2196375,
+      "name": "הצעת חוק התגמולים לנפגעי פעולות שנאה, התשפ\"ג-2022",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1346,14 +768,48 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206978)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2196375)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206971",
-      "billId": 2206971,
-      "name": "הצעת חוק הפעלת מוקד טלפוני לטיפול בקנאביס רפואי, התשפ\"ג-2023",
+      "id": "bill-2204998",
+      "billId": 2204998,
+      "name": "הצעת חוק לתיקון פקודת התעבורה (תשלום עבור נסיעה בתחבורה ציבורית בכרטיס אשראי), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 122,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2204998)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2204004",
+      "billId": 2204004,
+      "name": "הצעת חוק תשלום בכרטיס אשראי בעד נסיעה בתחבורה ציבורית (תיקוני חקיקה), התשפ\"ד–2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 113,
+      "number": 997,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2204004)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2200223",
+      "billId": 2200223,
+      "name": "הצעת חוק החקלאות, התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1363,14 +819,99 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206971)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2200223)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206968",
-      "billId": 2206968,
-      "name": "הצעת חוק המועצות האזוריות (בחירת ראש המועצה) (תיקון - הגשת רשימה על ידי סיעה או מפלגה), התשפ\"ג-2023",
+      "id": "bill-2196116",
+      "billId": 2196116,
+      "name": "הצעת חוק הסדרת העיסוק במקצועות הבריאות (תיקון - טיפול באמצעות אמנויות), התשפ\"ג-2022",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2196116)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2203727",
+      "billId": 2203727,
+      "name": "הצעת חוק הסדרת העיסוק במקצועות הבריאות (תיקון - טיפול באמצעות אמנויות), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2203727)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2221855",
+      "billId": 2221855,
+      "name": "הצעת חוק התגמולים לנפגעי פעולות איבה (תיקון - זכאות לטיפול פסיכולוגי), התשפ\"ה-2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2221855)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2227682",
+      "billId": 2227682,
+      "name": "הצעת חוק משק החשמל (תיקון - טעינת רכב חשמלי באמצעות יישומון תשלום אחוד), התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227682)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2226689",
+      "billId": 2226689,
+      "name": "הצעת חוק משק החשמל (תיקון - טעינת רכב חשמלי באמצעות יישומון תשלום אחוד), התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2226689)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2223948",
+      "billId": 2223948,
+      "name": "הצעת חוק משק החשמל (תיקון - טעינת רכב חשמלי באמצעות יישומון תשלום אחוד), התשפ\"ה-2025",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1380,14 +921,99 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206968)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2223948)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206966",
-      "billId": 2206966,
-      "name": "הצעת חוק התכנון והבנייה (תיקון - החלטה מקדמית לפי תוכנית החיזוק), התשפ\"ג-2023",
+      "id": "bill-2216841",
+      "billId": 2216841,
+      "name": "הצעת חוק האקלים, התשפ\"ד-2024",
+      "knesset": 25,
+      "type": "ממשלתית",
+      "statusId": 113,
+      "number": 1735,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2216841)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2197223",
+      "billId": 2197223,
+      "name": "חוק הסדרת העיסוק במקצועות הבריאות (תיקון מס' 9), התשפ\"ד–2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 118,
+      "number": 987,
+      "publicationDate": "2024-03-07T00:00:00",
+      "summary": "נקבע כי המנהל הכללי של משרד הבריאות או מי שהוא הסמיך לעניין זה, יהיה רשאי להעניק תעודה בפודיאטריה המוגבלת לפעולות בפודיאטריה שאינן כוללות טיפול פולשני והרדמה מקומית בכף הרגל המנויות בתוספת החמישית לחוק הסדרת העיסוק במקצועות הבריאות, התשס\"ח-2008, למי שיש בידו תעודה המעידה על סיום לימודיו בפודולוגיה מחוץ לישראל ועומד בכל התנאים הנדרשים כמפורט בחוק. בעל מקצוע בריאות זה ייקרא פודולוג. תעודת סיום לימודים כאמור תוכר רק אם הלימודים התחילו לפני יום ט\"ז באייר התשפ\"ט (1 במאי 2029). שר הבריאות, באישור ועדת הבריאות של הכנסת,  יהיה רשאי לדחות, בצו, את המועד האמור בשתי תקופות נוספות שכל אחת מהן לא תעלה על שלוש שנים. עוד נקבע כי תקופת הניסיון הקודם שתידרש מפודיאטרים ומפודיאטרים מנתחים לשם קבלת תעודת מקצוע, תקוצר משנתיים וחצי לשנה וחצי בסך הכל, כשמתוכן לפחות חצי שנה של עבודה בפיקוח. עוד נקבע שההסדר לא יחול על תושב ישראל שמרכז חייו היה בישראל בטרם יצא ממנה לשם לימודים בתחום. כמו כן נקבעו הוראות מעבר לעניין מי שעסק כפודולוג בישראל ערב יום תחילתו של החוק, כדי לאפשר לו לקבל תעודת מקצוע בתנאים המפורטים בחוק. לבסוף, תוקן חוק זכויות החולה, התשנ\"ו-1996, כך שפודולוג הוא מטפל לעניין החוק. תחילתו של התיקון ביום כ\"ג בניסן התשפ\"ד (1 במאי 2024).\n\n",
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2197223)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2213335",
+      "billId": 2213335,
+      "name": "הצעת חוק התכנון והבנייה (תיקון - הכללת בתים מאזנים בהיתר מגורים לחוסים), התשפ\"ד-2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 122,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2213335)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2232909",
+      "billId": 2232909,
+      "name": "הצעת חוק המרכז להנצחת זכרו ומורשתו של זאב ז'בוטינסקי, התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 150,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2232909)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2230441",
+      "billId": 2230441,
+      "name": "הצעת חוק הגנה על קטינים (הזכות למחיקת מידע אישי), התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2230441)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2218847",
+      "billId": 2218847,
+      "name": "הצעת חוק רשות מקרקעי ישראל (תיקון - העדפת רכישת קרקע בפריפריה לחיילי מילואים), התשפ\"ד-2024",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1397,14 +1023,31 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206966)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2218847)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206962",
-      "billId": 2206962,
-      "name": "הצעת חוק עיקול ותפיסה מידתיים של נכסים המוחזקים בידי צד שלישי (תיקוני חקיקה), התשפ\"ג-2023",
+      "id": "bill-2198091",
+      "billId": 2198091,
+      "name": "הצעת חוק גנים לאומיים, שמורות טבע, אתרים לאומיים ואתרי הנצחה (תיקון - הגנה על סמלי הנצחה ומורשת), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2198091)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2197659",
+      "billId": 2197659,
+      "name": "הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור הפליה בדיור), התשפ\"ג-2022",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1414,14 +1057,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206962)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2197659)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206960",
-      "billId": 2206960,
-      "name": "הצעת חוק מבקר המדינה (תיקון - הגנה על חושפי שחיתויות במשטרת ישראל), התשפ''ג-2023",
+      "id": "bill-2199082",
+      "billId": 2199082,
+      "name": "הצעת חוק-יסוד: העדה הדרוזית ",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1431,14 +1074,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206960)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2199082)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206955",
-      "billId": 2206955,
-      "name": "הצעת חוק חילוט תקבולי עבירה בפשיעה חקלאית, התשפ\"ג-2023",
+      "id": "bill-2237452",
+      "billId": 2237452,
+      "name": "הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - הגדלת סכום הפיצוי בלא הוכחת נזק), התשפ\"ו-2025",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1448,14 +1091,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206955)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2237452)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206816",
-      "billId": 2206816,
-      "name": "הצעת חוק הגנת השכר (תיקון - פירוט עלות מעסיק), התשפ\"ג-2023",
+      "id": "bill-2225556",
+      "billId": 2225556,
+      "name": "הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - הגדלת סכום הפיצוי בלא הוכחת נזק), התשפ\"ה-2024",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1465,14 +1108,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206816)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2225556)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206808",
-      "billId": 2206808,
-      "name": "הצעת חוק שיפוט בתי דין רבניים (נישואין וגירושין) (תיקון - הגבלת משך זמן ההליך), התשפ\"ג-2023",
+      "id": "bill-2201638",
+      "billId": 2201638,
+      "name": "הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - הגדלת סכום הפיצוי בלא הוכחת נזק), התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1482,14 +1125,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206808)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2201638)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206674",
-      "billId": 2206674,
-      "name": "הצעת חוק הרשות לפיתוח הנגב (תיקון - שינוי הגדרת הנגב), התשפ\"ג-2023",
+      "id": "bill-2234224",
+      "billId": 2234224,
+      "name": "הצעת חוק-יסוד: הכנסת (תיקון - ייצוג מינימלי לשני המינים ברשימת מועמדים לכנסת)",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1499,14 +1142,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206674)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2234224)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206605",
-      "billId": 2206605,
-      "name": "הצעת חוק חג המימונה, התשפ\"ג-2023 ",
+      "id": "bill-2209843",
+      "billId": 2209843,
+      "name": "הצעת חוק-יסוד: הכנסת (תיקון - ייצוג מינימלי לשני המינים ברשימת מועמדים לכנסת)",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1516,14 +1159,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206605)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2209843)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2206554",
-      "billId": 2206554,
-      "name": "הצעת חוק להסדרת רעיית דבורים וייצור דבש, התשפ\"ג-2023",
+      "id": "bill-2199958",
+      "billId": 2199958,
+      "name": "הצעת חוק-יסוד: הכנסת (תיקון - ייצוג מינימלי לשני המינים ברשימת מועמדים לכנסת)",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1533,14 +1176,65 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2206554)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2199958)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2205349",
-      "billId": 2205349,
-      "name": "הצעת חוק זכות יוצרים (תיקון - תשלום תמלוגים), התשפ\"ג-2023",
+      "id": "bill-2230612",
+      "billId": 2230612,
+      "name": "הצעת חוק תשלומים לפדויי שבי ולחטופים ששוחררו (תיקון - העלאת דרגת הנכות ל-100% לחטופים ששוחררו), התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2230612)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2226038",
+      "billId": 2226038,
+      "name": "הצעת חוק תמיכה במימון פעילות ארגון נכי צה\"ל ובתי הלוחם ובארגון נפגעי פעולות האיבה, התשפ\"ה-2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 122,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2226038)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2233474",
+      "billId": 2233474,
+      "name": "הצעת חוק העונשין (תיקון - ביטול עבירת המטרד על ידי עיסוק בזנות), התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2233474)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2222604",
+      "billId": 2222604,
+      "name": "הצעת חוק גנים לאומיים, שמורות טבע, אתרים לאומיים ואתרי הנצחה (תיקון - שמירה על מעמד האתרים הלאומיים), התשפ\"ה-2024",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1550,14 +1244,31 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2205349)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2222604)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2203644",
-      "billId": 2203644,
-      "name": "הצעת חוק הגנת הצרכן (תיקון - ביטול עסקת מכר מרחוק למתן שירותי תיירות בישראל), התשפ\"ג-2023",
+      "id": "bill-2228785",
+      "billId": 2228785,
+      "name": "הצעת חוק כלי הירייה (תיקון - הודעה בגין חשש לחיי אדם מצד המגיש בקשה להחזיק בכלי ירייה), התשפ\"ה-2025",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 122,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2228785)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2223191",
+      "billId": 2223191,
+      "name": "הצעת חוק ועדת חקירה ממלכתית בגין אירועי 7 באוקטובר ומלחמת חרבות ברזל, התשפ\"ה-2024 ",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1567,14 +1278,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2203644)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2223191)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2202986",
-      "billId": 2202986,
-      "name": "הצעת חוק ביטול המינהל האזרחי, התשפ\"ג-2023",
+      "id": "bill-2218896",
+      "billId": 2218896,
+      "name": "הצעת חוק הקמת ועדת חקירה ממלכתית למחדלי 7 באוקטובר, התשפ\"ד-2024",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1584,14 +1295,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202986)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2218896)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2202985",
-      "billId": 2202985,
-      "name": "הצעת חוק הפרטת גלי צה\"ל, התשפ\"ג-2023",
+      "id": "bill-2222540",
+      "billId": 2222540,
+      "name": "הצעת חוק למניעת אלימות במשפחה (תיקון - הגדרת אלימות במשפחה), התשפ\"ה-2024",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1601,14 +1312,65 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202985)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2222540)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2202984",
-      "billId": 2202984,
-      "name": "הצעת חוק לתיקון פקודת סדרי השלטון והמשפט (חקיקה באמצעות צו), התשפ\"ג-2023",
+      "id": "bill-2215054",
+      "billId": 2215054,
+      "name": "הצעת חוק חיילים משוחררים (החזרה לעבודה) (תיקון - הרחבת תקופת הגנה מפני פיטורים למשרתים במילואים), התשפ\"ד-2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 150,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2215054)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2216747",
+      "billId": 2216747,
+      "name": "הצעת חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים) (תיקון - מסירת מידע על עמלות וריביות בידי נותן שירותים פיננסיים), התשפ\"ד-2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2216747)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2214293",
+      "billId": 2214293,
+      "name": "הצעת חוק הביטוח הלאומי (תיקון - זכאות לדמי לידה עבור משרתות מילואים), התשפ\"ד-2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2214293)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2200332",
+      "billId": 2200332,
+      "name": "הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור הפליה בדיור), התשפ\"ד-2023",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1618,14 +1380,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202984)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2200332)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2202983",
-      "billId": 2202983,
-      "name": "הצעת חוק היטלי סחר ואמצעי הגנה (תיקון - אי פתיחת חקירה בשל יבוא בהיצף בשוק מונופוליסטי או ריכוזי), התשפ\"ג-2023",
+      "id": "bill-2195713",
+      "billId": 2195713,
+      "name": "הצעת חוק ביטוח סיעוד ממלכתי (תיקוני חקיקה), התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1635,14 +1397,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202983)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2195713)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2202982",
-      "billId": 2202982,
-      "name": "הצעת חוק מועצת הצמחים (ייצור ושיווק) (תיקון - ביטול מועצת הצמחים), התשפ\"ג-2023",
+      "id": "bill-2227427",
+      "billId": 2227427,
+      "name": "הצעת חוק החיילים המשוחררים (החזרה לעבודה) (תיקון - הרחבת תקופת הגנה מפני פיטורים למשרתים במילואים), התשפ\"ה-2025",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1652,14 +1414,14 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202982)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2227427)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2202977",
-      "billId": 2202977,
-      "name": "הצעת חוק התחרות הכלכלית (תיקון - ביטול הפטור לענף החקלאות), התשפ\"ג-2023",
+      "id": "bill-2200985",
+      "billId": 2200985,
+      "name": "הצעת חוק התגמולים לנפגעי פעולות איבה (תיקון - פשעי שנאה), התשפ\"ג-2023",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1669,14 +1431,48 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202977)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2200985)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2202974",
-      "billId": 2202974,
-      "name": "הצעת חוק החלת ריבונות על מעלה אדומים, התשפ\"ג-2023",
+      "id": "bill-2200794",
+      "billId": 2200794,
+      "name": "הצעת חוק הפיקוח על שירותים פיננסיים (קופות גמל) (תיקון - הגדלת הסכום המרבי להפקדה בקופות גמל להשקעה), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2200794)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2217620",
+      "billId": 2217620,
+      "name": "הצעת חוק לתיקון פקודת מס הכנסה (קרן השתלמות לחקלאי שומר שמיטה), התשפ\"ד-2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2217620)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2238654",
+      "billId": 2238654,
+      "name": "הצעת חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים) (תיקון - מתן רישיון לנותן שירות זר), התשפ\"ו-2026",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1686,14 +1482,48 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202974)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2238654)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     },
     {
-      "id": "bill-2202972",
-      "billId": 2202972,
-      "name": "הצעת חוק איסור קבלת תרומות ממדינות אויב או מדינות תומכות טרור, התשפ\"ג-2023",
+      "id": "bill-2200898",
+      "billId": 2200898,
+      "name": "הצעת חוק לתיקון פקודת המועצות המקומיות (בחירות לוועד מקומי במועצה אזורית), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 122,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2200898)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2202921",
+      "billId": 2202921,
+      "name": "הצעת חוק בינוי ופינוי של אזורי שיקום (כפר שלם), התשפ\"ו–2026",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 113,
+      "number": 1205,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202921)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2240319",
+      "billId": 2240319,
+      "name": "הצעת חוק התגמולים לנפגעי פעולות איבה (תיקון - פשעי שנאה), התשפ\"ו-2026",
       "knesset": 25,
       "type": "פרטית",
       "statusId": 177,
@@ -1703,8 +1533,178 @@
       "source": {
         "provider": "Knesset OData v4",
         "entity": "KNS_Bill",
-        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2202972)",
-        "fetchedAt": "2026-09-02T19:28:35.869Z"
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2240319)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2198509",
+      "billId": 2198509,
+      "name": "הצעת חוק לתיקון פקודת התעבורה (איסור נהיגת שטח בדרך שאינה ייעודית לנסיעת שטח), התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 150,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2198509)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2198100",
+      "billId": 2198100,
+      "name": "הצעת חוק לחילוט תקבולי עבירה בשווי בעבירת גניבה חקלאית ובעבירות הגורמות נזק לרכוש חקלאי, התשפ\"ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2198100)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2198083",
+      "billId": 2198083,
+      "name": "הצעת חוק הלוואות למיגון דירות באזורי קו העימות, התשפ''ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 150,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2198083)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2198081",
+      "billId": 2198081,
+      "name": "הצעת חוק רכזי ביטחון שוטף צבאיים, התשפ''ג-2023",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 177,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2198081)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2196821",
+      "billId": 2196821,
+      "name": "הצעת חוק הבנקאות (שירות ללקוח) (תיקון - הגבלת עמלת ערבות בנקאית שמובטחת בפיקדון כספי מסוים), התשפ\"ג-2022",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2196821)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2213808",
+      "billId": 2213808,
+      "name": "הצעת חוק החיילים המשוחררים (החזרה לעבודה) (תיקון - הרחבת ההגנה מפני פיטורין), התשפ\"ד-2024",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 150,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2213808)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2198155",
+      "billId": 2198155,
+      "name": "הצעת חוק-יסוד: ישראל - מדינת הלאום של העם היהודי (תיקון - ביטול החוק)",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 177,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2198155)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2194824",
+      "billId": 2194824,
+      "name": "חוק למניעת אלימות במשפחה (תיקון מס' 19 – הוראת שעה), התשפ\"ג–2023 ",
+      "knesset": 25,
+      "type": "ממשלתית",
+      "statusId": 118,
+      "number": 1572,
+      "publicationDate": "2023-08-06T00:00:00",
+      "summary": "החוק מסדיר את סמכותו של בית המשפט לתת צו הגנה בתנאי פיקוח טכנולוגי במסגרת הגנה על בני משפחה מפני אלימות, וקובע את הסדרים אלו כהוראת שעה למשך שלוש שנים מיום תחילת החוק. ראשית, החוק קובע שלושה תנאים שעל בית המשפט לבחון בבואו לתן צו הגנה בתנאי פיקוח טכנולוגי, וכן קובע חריג לתנאים אלו במצבים בהם נשקפת סכנה גבוהה או חשש ממשי לחיי בן המשפחה. שנית, נקבע כי בסמכות השר לביטחון לאומי לקבוע בצו את המספר המרבי של אמצעי פיקוח טכנולוגי שניתן לעשות בהם שימוש, וכי מספר זה יעלה על המספר שנקבע בשנה הקודמת. עוד נקבע כי בית המשפט יורה על ביצוע הערכת מסוכנות של מי שכלפיו מבוקש הצו, וכן כי מכסת הערכות המסוכנות תקבע לכל שנה על ידי שר הרווחה והביטחון החברתי, ובלבד שלא תפחת מהמכסה שנקבעה בשנה הקודמת. בנוסף, תוקם יחידת פיקוח טכנולוגי בשירות בתי הסוהר, והיא תהיה אמונה על פיקוח ואכיפה של צווים שניתנו בתנאי פיקוח טכנולוגי. ביחידת הפיקוח הטכנולוגי יעבדו הן עובדי מדינה, והן עובדים מחברה מפעילה אשר ימלאו תפקידי טכנאות וסיוע אזרחי. לבסוף, נקבעה חובת דיווח שנתית על השר לביטחון לאומי לוועדה לביטחון לאומי של הכנסת בדבר קיום החוק, לצד הקמת ועדת היגוי לשם ביצוע מחקר מלווה. לצד זאת, בתום שנה מיום תחילת החוק תבחן הוועדה לביטחון לאומי של הכנסת את האפשרות להאריך את תוקפו של צו הגנה בתנאי פיקוח טכנולוגי שניתן ללא הערכת מסוכנות, ואת פרק הזמן להגשת הערכת המסוכנות לבית המשפט.",
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2194824)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2196157",
+      "billId": 2196157,
+      "name": "הצעת חוק להקפאת קצבאות שמשולמות לפעיל טרור ומשפחתו מקופת המדינה, התשפ\"ג-2022",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2196157)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
+      }
+    },
+    {
+      "id": "bill-2196852",
+      "billId": 2196852,
+      "name": "הצעת חוק רשות מקרקעי ישראל (תיקון - הקצאת קרקעות בנגב ובגליל לחיילים משוחררים ומשרתי שירות לאומי-אזרחי), התשפ\"ג-2022",
+      "knesset": 25,
+      "type": "פרטית",
+      "statusId": 108,
+      "number": null,
+      "publicationDate": null,
+      "summary": null,
+      "source": {
+        "provider": "Knesset OData v4",
+        "entity": "KNS_Bill",
+        "recordUrl": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(2196852)",
+        "fetchedAt": "2026-11-14T11:59:37.630Z"
       }
     }
   ]
